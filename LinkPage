@@ -6,3 +6,24 @@ git add --all
 git commit -m "Initial commit"
 
 git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Link in Bio</title>
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="Your Name" class="profile-picture">
+        <h1>Your Name</h1>
+        <p>Your short bio or description goes here. This could be anything you like.</p>
+        <div class="links">
+            <a href="https://link-1.com" target="_blank">Link 1</a>
+            <a href="https://link-2.com" target="_blank">Link 2</a>
+            <a href="https://link-3.com" target="_blank">Link 3</a>
+        </div>
+    </div>
+</body>
+</html>
